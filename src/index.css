@@ -1,0 +1,82 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.line__name{
+  border-top: 1px solid rgba(var(--ca6,219,219,219),1);
+  margin: 3vh 0px 0px 0px;
+  text-align: center;
+}
+
+.h2__name{
+  margin: 1vh 0px 0px 0px;
+  text-align: center;
+}
+
+.posts{
+  border: 1px solid rgba(var(--ca6,219,209,219),1);
+  margin: 2vh 5vw 2vh 5vw;
+  padding: 5vh 5vw;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.edit_info{
+  border: 1px dashed rgba(var(--ca6,219,119,219),1);
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 5px 9px;
+  margin: 2vh 4vw;
+  text-align: center;
+  font: inherit;
+}
+
+.info__flex{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 1vh;
+}
+
+
+
+.info__flex > .info__name, .info__surname{
+  margin: 0px 2vw;
+}
+
+.info__photo{
+  padding: 40px 0px 40px 0px;
+  margin: 1vh 35% 1vh 35%;
+  border: 1px dashed rgba(var(--ca6,219,119,219),2);
+  border-radius: 200px;
+  text-align: center;
+}
+
+.header{
+  border-bottom: 1px solid rgba(var(--ca6,219,219,219),1);
+  padding: 1vh 1vw;
+  margin: 0vh 0vw 3vh 0vw;
+  text-align: end;
+  display: flex;
+  justify-content: end;
+}
+
+.header__profile, .header__close{
+  margin: 0px 4vw 0px 0px;
+}
+
+.pages__button{
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  border-radius: 4px;
+  padding: 1vh 1vw;
+  margin: 2vh 0vw 3vh 0vw;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
